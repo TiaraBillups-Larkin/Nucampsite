@@ -5,17 +5,31 @@
   "main": "index.html",
   "scripts": {
     "lite": "lite-server",
+    "scss": "node-sass -o css/ css/",
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jesse",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^4.5.2",
+    "bootstrap": "^4.6.0",
     "bootstrap-social": "^5.1.1",
     "font-awesome": "^4.7.0",
     "jquery": "^3.5.1",
     "lite-server": "^2.6.1",
-    "popper.js": "^1.16.1"
-  }
+    "popper.js": "^1.16.1",
+    "usemin": "^0.6.0",
+    "webpack": "^5.58.2"
+  },
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjgarcilazo/Nucampsite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jjgarcilazo/Nucampsite/issues"
+  },
+  "homepage": "https://github.com/jjgarcilazo/Nucampsite#readme"
 }
